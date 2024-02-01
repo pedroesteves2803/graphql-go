@@ -11,7 +11,21 @@ Explorando o GraphQL com o uso da linguagem Go.
 docker-compose up -d
 ```
 
-2. Acesse a aplicação em seu navegador:
+2. execute o comando docker-compose exec para acessar o contêiner:
+
+
+```bash
+docker-compose exec -it graphql bash
+```
+
+3. execute o comando para iniciar o servidor em Go:
+
+
+```bash
+go run cmd/server/server.go
+```
+
+4. Acesse a aplicação em seu navegador:
 
 ```bash
 http://localhost:8080
