@@ -1,4 +1,4 @@
-# 🐳 GraphQL usando go
+# 🐳 GraphQL usando go e docker
 
 Explorando o GraphQL com o uso da linguagem Go.
 
